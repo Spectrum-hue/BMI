@@ -26,7 +26,7 @@ public class BMI {
 						
 		// Getting user input
 		System.out.print("Enter your weight(KG):  ");
-	    weight = input.nextFloat();
+	        weight = input.nextFloat();
 						
 		System.out.print("Enter you height(CM): ");
 		height = input.nextFloat();
