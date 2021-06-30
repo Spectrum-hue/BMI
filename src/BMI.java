@@ -45,24 +45,25 @@ public class BMI {
 				        
 		}
 		// Method to determine in which category an user fall
-	    private static void Bmigrouping(float bmi) {
+	        private static void Bmigrouping(float bmi) {
 						
 						
 		    if(bmi < 18.5) {
-				System.out.println("Underweight!");
+			System.out.println("Underweight!");
 		    }else if (bmi < 25.0) {
-				System.out.println("Weight is normal");
-			}else if (bmi < 30.0) {
-				System.out.println("Overweight");
-			}else {
-				System.out.println("Obese!");
+			System.out.println("Weight is normal");
+		    }else if (bmi < 30.0) {
+			System.out.println("Overweight");
+		    }else {
+		    System.out.println("Obese!");
 						
 						
-			}
+		}
 
        }
 
  }
+
 
 
 			
