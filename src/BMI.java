@@ -35,7 +35,7 @@ public class BMI {
 		// The addition of "100*100" accounts for centimeter(cm) to meter(m) conversion.
 		bmi = (100*100*weight)/(height*height);
 				        
-		// New variable "roundBmi: Method to round the bmi variable to 2 decimal places 
+		// New variable "roundBmi: Method to round the bmi variable to 2 decimal places. 
 		roundBmi = (float) (Math.round(bmi * 100.0)/100.0);
 		System.out.println(roundBmi + "\n");
 				
