@@ -6,7 +6,7 @@
  * - Any measurement system - Imperial (e.g. feet, inches and pounds) or Metric(e.g. meters and kilograms) can be used.
  * - Use your own initiative regarding the methods used to calculate the BMI.
  * - This program should however include at least 1 basic math method from the Java Math Class.
- * - Also create at least one method that determine whether the BMI of a person falls in a specific category.
+ * - Also create at least one method that determine (not the main method) whether the BMI of a person falls in a specific category.
  * - Call the method in the main method. 
  */
 
@@ -42,11 +42,9 @@ public class BMI {
 		// Call Method
 		Bmigrouping(bmi);
 				        
-				        
 		}
 		// Method to determine in which category an user fall
 	        private static void Bmigrouping(float bmi) {
-						
 						
 		    if(bmi < 18.5) {
 			System.out.println("Underweight!");
@@ -57,10 +55,9 @@ public class BMI {
 		    }else {
 		    System.out.println("Obese!");
 						
-						
 		}
 
-       }
+         }
 
  }
 
